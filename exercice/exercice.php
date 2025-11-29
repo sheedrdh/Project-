@@ -1,6 +1,6 @@
 <h1> exo 1 </h1>
 <h2> il faut montrait le prixHT et la tav est $prixTTC</h2>
-
+<h2> premier idee   </h2>
 <?php
 
 $prixHT = 50;
@@ -22,3 +22,15 @@ echo $prixTTf
 
 
 ?>
+
+<h2> second  idee </h2>
+ 
+    <?php
+    echo $prixHT;
+
+    echo $Tva;
+
+    if ($prixTTC = $prixHT + ($prixHT * $Tva / 100));
+
+    echo $prixTTC
+    ?>
