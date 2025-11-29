@@ -1,6 +1,6 @@
 <h1> exo 1 </h1>
-<h2> il faut montrait le prixHT et la tav est $prixTTC</h2>
-<h2> premier idee   </h2>
+<h2> il faut montrait le prixHT et la tav est $prixTTC </h2>
+<h3>premier idee</h3>
 <?php
 
 $prixHT = 50;
@@ -15,22 +15,19 @@ if ($Tva) {
 }
 if ($prixTTC = $prixHT + ($prixHT * $Tva / 100));
 
-echo $prixTTC
+echo $prixTTf
 
 
 // echo "ca c est le prixHT $prixHT" <"br">    .
 
-
 ?>
 
-<h2> second  idee </h2>
- 
-    <?php
-    echo $prixHT;
+<?php
+echo $prixHT;
 
-    echo $Tva;
+echo $Tva;
 
-    if ($prixTTC = $prixHT + ($prixHT * $Tva / 100));
+if ($prixTTC = $prixHT + ($prixHT * $Tva / 100));
 
-    echo $prixTTC
-    ?>
+echo $prixTTC
+?>
