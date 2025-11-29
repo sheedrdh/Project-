@@ -15,37 +15,35 @@ if ($Tva) {
 }
 if ($prixTTC = $prixHT + ($prixHT * $Tva / 100));
 
-echo $prixTTf
+echo $prixTTC
 
 
 // echo "ca c est le prixHT $prixHT" <"br">    .
 
 ?>
 
-
 <h2> second  idee </h2>
  
     <?php
  
-
-
     echo $prixHT;
-
-<?php
-echo $prixHT;
 
 
 echo $Tva;
 
 if ($prixTTC = $prixHT + ($prixHT * $Tva / 100));
 
-<<<<<<< HEAD
     echo $prixTTC
     ?>
 
+
+<h2> 3 idee  </h2>
     <?php
 
-    functon()
+    functon(formule){
+ if ($prixTTC = $prixHT + ($prixHT * $Tva / 100));
+
+    }
 
 
 
@@ -54,5 +52,5 @@ if ($prixTTC = $prixHT + ($prixHT * $Tva / 100));
 
 
 
- 
+
     ?>
