@@ -22,7 +22,7 @@ echo $prixTTf
 
 ?>
 
-<<<<<<< HEAD
+
 <h2> second  idee </h2>
  
     <?php
@@ -30,10 +30,10 @@ echo $prixTTf
 
 
     echo $prixHT;
-=======
+
 <?php
 echo $prixHT;
->>>>>>> ca664ba3b2ded6d1e3e852474216a076a9444f61
+
 
 echo $Tva;
 
@@ -54,9 +54,5 @@ if ($prixTTC = $prixHT + ($prixHT * $Tva / 100));
 
 
 
- u
+ 
     ?>
-=======
-echo $prixTTC
-?>
->>>>>>> ca664ba3b2ded6d1e3e852474216a076a9444f61
