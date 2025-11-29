@@ -15,7 +15,7 @@ if ($Tva) {
 }
 if ($prixTTC = $prixHT + ($prixHT * $Tva / 100));
 
-echo $prixTTf
+echo $prixTTC
 
 
 // echo "ca c est le prixHT $prixHT" <"br">    .
